@@ -22,8 +22,8 @@ jobs:
           pip install notebook nbconvert ipykernel selenium
     - name: Run Selenium Test
       env:
-        USERNAME: ${{ secrets.BROWSERSTACK_USERNAME }}
-        ACCESS_KEY: ${{ secrets.BROWSERSTACK_ACCESS_KEY }}
+        USERNAME: ${{ tushantkarihaloo_kfrEw6 }}
+        ACCESS_KEY: ${{ DYCyyQezgvdRQUzv7FYr }}
       run: jupyter nbconvert --to notebook --execute --output executed_notebook.ipynb TESTwithCI.ipynb
 
 
